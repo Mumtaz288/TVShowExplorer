@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1074680648430:android:44392c9c41ba9b9aa459ff",
+        "android_client_info": {
+          "package_name": "com.code.tvexplorer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCroPVYeVhv9_07Jdvyu4ByVRp6FkVVPWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1074680648430:android:33c696c50862f3ffa459ff",
         "android_client_info": {
           "package_name": "com.code.tvshowexplorer"

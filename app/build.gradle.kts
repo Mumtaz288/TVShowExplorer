@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.code.tvshowexplorer"
+    namespace = "com.code.tvexplorer"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.code.tvshowexplorer"
+        applicationId = "com.code.tvexplorer"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -28,6 +28,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
@@ -69,7 +70,8 @@ dependencies {
     implementation(libs.firebase.common.ktx)
     implementation(libs.firebase.auth.ktx)
     implementation(libs.firebase.firestore.ktx)
-    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -79,6 +81,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.analytics)
 
 }
