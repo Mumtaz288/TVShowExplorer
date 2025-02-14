@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494401762301",
+    "project_id": "tv-explorer-13bcf",
+    "storage_bucket": "tv-explorer-13bcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494401762301:android:c5820bb5a9e5de5a4adf94",
+        "android_client_info": {
+          "package_name": "com.code.tvexplorer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuRjsEt4Zhxt6jjUyGfc9eQIKjtyUNjtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
