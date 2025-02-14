@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TV Explorer"
+rootProject.name = "TVShowExplorer"
 include(":app")
  
